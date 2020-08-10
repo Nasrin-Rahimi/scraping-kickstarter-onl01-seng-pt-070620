@@ -13,6 +13,7 @@ def create_project_hash
   end
   
   projects
+  binding.pry
   
   # image_link = project.css("div.project-thumbnail a img").attribute("src").value
   # description = project.css("p.bbcard_blurb").text
